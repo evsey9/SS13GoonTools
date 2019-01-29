@@ -13,8 +13,7 @@ opcode = {'NOP': '0',
           'OEN': 'B',
           'JMP': 'C',
           'RTN': 'D',
-          'SKZ': 'E'
-          }
+          'SKZ': 'E'}
 if len(sys.argv) > 1:
     path = sys.argv[1]
     sys.stdin = open(path, "r")
